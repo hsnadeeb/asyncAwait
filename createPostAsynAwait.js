@@ -1,5 +1,5 @@
 const posts = [{title: 'POST1'}];
-
+console.log("Asysn await converted");
 async function create2ndPost() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
